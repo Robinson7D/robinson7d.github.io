@@ -1,0 +1,25 @@
+$color--background:             #FCFFFD;
+
+$color--theme:         #F1FFF0;
+$color--highlight:     #85CDff;
+$color--complement:     #FF7C7F;
+
+$color--sidebar-background:     $color--theme;
+
+$color--text:           #444444;
+$color--header-heavy:   lighten($color--text, 5%);
+$color--header-light:   lighten($color--text, 5%);
+
+$color--nav-bg:            $color--sidebar-background;
+$color--nav-bg_hover:      desaturate(darken($color--nav-bg, 3%), 20%);
+
+$color--nav-border:         darken(desaturate($color--nav-bg, 64), 7);
+$color--nav-border-hover:   darken(desaturate($color--nav-bg, 42), 12);
+$color--nav-border-active:  lighten($color--highlight, 15); 
+
+$size--sidebar-width:           300px;
+$size--sidebar-padding:         20px;
+$size--sidebar-padding-right:   $size--sidebar-padding;
+
+$size--content-padding:       35px;
+

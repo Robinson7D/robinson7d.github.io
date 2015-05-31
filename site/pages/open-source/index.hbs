@@ -1,0 +1,15 @@
+{{#layout}}
+  <section class="explanation">
+    Open source development plays an important part in my ideology. And, although it is a core component of what I wish to provide during my career, I don't contribute to open source projects often enough. This page outlines some of these contributions, and with any luck, will drive me to do more.
+  </section>
+  <section class="stackoverflow">
+    In addition to writing code for open source projects (typically on Github), I also answer questions on Stack Overflow, where my username is <a href="http://stackoverflow.com/users/624590/drobinson">DRobinson</a>.
+  </section>
+
+  <section class="open-source">
+    {{#each page.projects}}
+      {{>opensource-project this}}
+    {{/each}}
+  </section>
+{{/layout}}
+

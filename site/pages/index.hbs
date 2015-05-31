@@ -1,0 +1,26 @@
+{{#layout}}
+  <header class="page-header">
+    <h2 class="title"> Work & Projects </h2>
+    <i class="description">A small gallery of some of the things I've built</i>
+  </header>
+
+  <section class="projects">
+    {{#each page.projectsGroups}}
+      <h3 class="location"> @<i>{{location}}</i> </h3>
+      {{#each projects}}
+        <article class="project">
+          <div class="images">
+            {{#each images}}
+              <img src="/static/images/projects/{{this}}"/>
+            {{/each}}
+          </div>
+          
+          <h4 class="title">{{title}}</h4>
+          <h5 class="role">{{role}}</h5>
+          <p class="description">{{{description}}}</p>
+        </article>
+      {{/each}}
+    {{/each}}
+  </section>
+{{/layout}}
+

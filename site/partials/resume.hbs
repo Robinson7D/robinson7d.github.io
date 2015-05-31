@@ -1,0 +1,39 @@
+{{>resume-header}}
+
+<div class="resume-body">
+  {{#each sections}}
+    <article>
+      <header class="category">{{title}}</header>
+      <div class="article-body">
+        {{#each elements}}
+          <section>
+            <header class="position">
+              <span class="title">
+                <h3 class="item-header">
+                  {{#if head.org}}
+                    <span>{{ head.org }}</span>
+                  {{/if}}
+                  {{ head.location }}
+                </h3>
+                {{#if head.role}}
+                  <h3 class="role">{{ head.role }}</h3>
+                {{/if}}
+              </span>
+              {{#if time}}
+                <span class="position-duration">
+                  {{time.start}} - {{time.end}}
+                </span>
+              {{/if}}
+            </header>
+
+            <ul class="details">
+              {{#each responsibilities}}
+                <li> {{this}} </li>
+              {{/each}}
+            </ul>
+          </section>
+        {{/each}}
+      </div>
+    </article>
+  {{/each}}
+</div>

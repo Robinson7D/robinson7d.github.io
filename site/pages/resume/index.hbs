@@ -1,0 +1,17 @@
+{{#layout}}
+  <div class="page-description">
+      My resume can be found below. It is currently 8 months out of date, and does not reflect my current position with Eyereturn Marketing; a new copy will be available soon.
+  </div>
+  <div class="resume-copies">
+    <span>
+      A <a href="printable" target="_blank">printable copy</a> is also available, as is a <a href="/static/resume.json" target="_blank">JSON representation</a>.
+    </span>
+  </div>
+
+  <div class="resume">
+    <hr class="resume-divider" />
+    
+    {{>resume site.resumeJSON}}
+  </div>
+{{/layout}}
+

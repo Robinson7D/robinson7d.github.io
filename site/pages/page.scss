@@ -1,0 +1,56 @@
+@import 'css/variables.scss';
+
+.page-header {
+  .title {
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+  .description {
+    margin-left: 10px;
+  }
+  margin-bottom: 30px;
+}
+
+
+.projects {
+  .location {
+    text-align: center;
+    color: darken(desaturate($color--theme, 95%), 65%);
+    padding-top: 5px;
+  }
+
+  .project {
+    margin-bottom: 30px;
+
+    .title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .role {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .description { 
+      margin-top: 10px;
+    }
+
+    &:after { // Beacuse the images float...
+      content: "";
+      display: block;
+      float: none;
+      clear: both;
+    }
+  }
+
+  .images {
+    float: right;
+    margin-top: 10px;
+    img {
+      margin-left: 20px;
+      margin-bottom: 10px;
+
+      width: 250px;
+      display: block;
+    }
+  }
+}

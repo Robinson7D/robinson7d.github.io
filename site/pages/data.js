@@ -8,7 +8,7 @@ module.exports = function () {
         projects: [
           {
             title: "Jugnoo Visualizer",
-            images: ['visualizer_a.png', 'visualizer_b.png'],
+            images: ['visualizer_a-tiny.png', 'visualizer_b-tiny.png'],
             role: "Lead Developer / Component Owner",
             description: "A novel tool for viewing related tweets (or messages from other social platforms) \
                           in ways different than your standard stream. Contains several scenes, which organize \
@@ -17,7 +17,7 @@ module.exports = function () {
           },
           {
             title: "JPost (Messaging)",
-            images: ['jpost.png'],
+            images: ['jpost-tiny.png'],
             role: "Lead Developer",
             description: "A cross-application tool for posting messages to social networks. Users write \
                           a message, select their accounts on various apps, and send the message through to all accounts. \
@@ -25,7 +25,7 @@ module.exports = function () {
           },
           {
             title: "Social Dashboard",
-            images: ['dashboard.png'],
+            images: ['dashboard-tiny.png'],
             role: "Developer",
             description: "An application for managing, viewing, and interacting with content gathered from a user's \
                          (or their organization's) social media accounts' streams (as well as RSS). \
@@ -39,7 +39,7 @@ module.exports = function () {
         projects: [
           {
             title: "Rolling Hills (3D Music Visualizer)",
-            images: ['rollinghills.jpg'],
+            images: ['rollinghills-tiny.jpg'],
             role: "Sole Developer",
             description: "An interactive, 3d music visualizer, built from the ground up using C++, OpenGL, \
                           GLUT, FMod (for sound/music), and Boost Threads (for crossplatform multithreading). \
@@ -52,7 +52,7 @@ module.exports = function () {
           },
           {
             title: "The Correlation Corroborator",
-            images: ['oldCC.png'],
+            images: ['oldCC-tiny.png'],
             role: "Sole Developer",
             description: "My first taste of Ruby on Rails. This implements a simple information extractor/crawler; \
                           given a wikipedia category and list of keywords, the app fetches the category's page from Wikipedia \

@@ -15,8 +15,10 @@
   </head>
   <body>
     {{>header}}
-    <section class="body-content">
-      {{{yield}}}
+    <section class="body-content-wrapper">
+      <div class="body-content">
+        {{{yield}}}
+      </div>
     </section>
     {{javascript-tags}}
   </body>

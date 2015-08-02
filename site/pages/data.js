@@ -4,6 +4,37 @@ module.exports = function () {
     path: '/',
     projectsGroups: [
       {
+        location: "Eyereturn Marketing",
+        projects: [
+          {
+            title: "Campaign Analytics",
+            images: [],
+            role: "Lead Front-End Developer",
+            description: "A reporting and analytics platform used to analyze various aspects of online advertising campaigns, such as general performance, conversions, viewability, and fraud. \
+                          Includes various report types, each with specialized visualizations and presentation methods, such as graphs, maps, and tables. \
+                          Reports also allow selecting from large lists of potential filters, groupings, and columns to build out the report tables; the selection of which also affects available graphs and maps.\
+                          Has many features including internationalization, white-labeling (theming, branding), saving views on reports, scheduling reports, downloading csv, column-locking, and more.\
+                          <br/>\
+                          Further details available at \
+                          <a href=\"http://eyereturnmarketing.com/solutions/technology/reporting-and-analytics/\" target=\"_blank\">  \
+                            eyereturnmarketing.com \
+                          </a>  "
+          },
+          {
+            title: "Accounts",
+            images: [],
+            role: "Lead Front-End Developer",
+            description: "An application for managing, editing, and creating accounts for Eyereturn applications."
+          },
+          {
+            title: "Eyereturn UI",
+            images: [],
+            role: "Creator / Developer",
+            description: "A general-purpose UI/UX and Javascript library to help standardize the look and feel of new applications company-wide."
+          }
+        ]
+      },
+      {
         location: "Jugnoo, Inc.",
         projects: [
           {

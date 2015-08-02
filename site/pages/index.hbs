@@ -1,7 +1,7 @@
 {{#layout}}
   <header class="page-header">
     <h2 class="title"> Work & Projects </h2>
-    <i class="description">A small gallery of some of the things I've built</i>
+    <h5 class="description"><i>A small gallery of some of the things I've built</i></h5>
   </header>
 
   <section class="projects">
@@ -11,7 +11,10 @@
         <article class="project">
           <div class="images">
             {{#each images}}
-              <img src="/static/images/projects/{{this}}"/>
+              <div class="image" style="height: {{this.height}}; 
+                                        background-image: url('/static/images/projects/{{this.src}}')"/>
+                
+              </div>
             {{/each}}
           </div>
           

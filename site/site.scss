@@ -7,6 +7,9 @@
 html {
   box-sizing: border-box;
 }
+* {
+  -webkit-overflow-scrolling: touch;
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -15,7 +18,7 @@ body {
   background: $color--background;
   color: $color--text;
 
-  font-family: "libre_baskerville", Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+  font-family: "Libre Baskerville",  "libre_baskerville", Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
   font-size: 1.0em;
   line-height: 1.6;
 

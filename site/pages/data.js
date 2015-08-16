@@ -8,17 +8,27 @@ module.exports = function () {
         projects: [
           {
             title: "Campaign Analytics",
-            images: [],
+            images: [
+              {
+                src: 'tiny/er_dashboard.jpg',
+                height: '139px'
+              }, 
+              {
+                src: 'tiny/er_dashboard_dark.jpg',
+                height: '149px'
+              }, 
+              {
+                src: 'tiny/er_performance.jpg',
+                height: '172px'
+              }
+            ],
             role: "Lead Front-End Developer",
             description: "A reporting and analytics platform used to analyze various aspects of online advertising campaigns, such as general performance, conversions, viewability, and fraud. \
-                          Includes various report types, each with specialized visualizations and presentation methods, such as graphs, maps, and tables. \
-                          Reports also allow selecting from large lists of potential filters, groupings, and columns to build out the report tables; the selection of which also affects available graphs and maps.\
-                          Has many features including internationalization, white-labeling (theming, branding), saving views on reports, scheduling reports, downloading csv, column-locking, and more.\
-                          <br/>\
-                          Further details available at \
-                          <a href=\"http://eyereturnmarketing.com/solutions/technology/reporting-and-analytics/\" target=\"_blank\">  \
-                            eyereturnmarketing.com \
-                          </a>  "
+                          <br/><br/>\
+                          Includes various report types, each with specialized visualizations and presentation methods, such as graphs, maps, and tables. As well, it includes the ability to schedule, and download xlsx copies of the reports. \
+                          Reports also allow selecting from large lists of potential filters, groupings, and columns to build out the report tables; the selection of which also affects available graphs and maps. These selections can be saved as \"views\" for future use. \
+                          <br/><br/>\
+                          Allows internationalization (all non-data text is built with i18n), and white-labeling (themes/branding)."
           },
           {
             title: "Accounts",

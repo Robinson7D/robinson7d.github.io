@@ -11,10 +11,14 @@
         <article class="project">
           <div class="images">
             {{#each images}}
-              <div class="image" style="height: {{this.height}}; 
-                                        background-image: url('/static/images/projects/{{this.src}}')"/>
-                
-              </div>
+              
+              <a class="image" 
+                 href="/static/images/projects/{{this.src}}"
+                 target="_blank"
+                 style="height: {{this.height}}; 
+                        background-image: url('/static/images/projects/tiny/{{this.src}}')">
+              </a>
+
             {{/each}}
           </div>
           

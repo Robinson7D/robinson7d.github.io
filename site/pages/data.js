@@ -10,15 +10,15 @@ module.exports = function () {
             title: "Campaign Analytics",
             images: [
               {
-                src: 'tiny/er_dashboard.jpg',
+                src: 'er_dashboard.jpg',
                 height: '139px'
               }, 
               {
-                src: 'tiny/er_dashboard_dark.jpg',
+                src: 'er_dashboard_dark.jpg',
                 height: '149px'
               }, 
               {
-                src: 'tiny/er_performance.jpg',
+                src: 'er_performance.jpg',
                 height: '172px'
               }
             ],
@@ -51,11 +51,11 @@ module.exports = function () {
             title: "Jugnoo Visualizer",
             images: [
               {
-                src: 'tiny/visualizer_a.png',
+                src: 'visualizer_a.png',
                 height: '132px'
               }, 
               {
-                src: 'tiny/visualizer_b.png',
+                src: 'visualizer_b.png',
                 height: '132px'
               }
             ],
@@ -69,7 +69,7 @@ module.exports = function () {
             title: "JPost (Messaging)",
             images: [
               {
-                src: 'tiny/jpost.png',
+                src: 'jpost.png',
                 height: '153px'
               }
             ],
@@ -82,7 +82,7 @@ module.exports = function () {
             title: "Social Dashboard",
             images: [
               {
-                src: 'tiny/dashboard.png',
+                src: 'dashboard.png',
                 height: '172px'
               }
             ],
@@ -101,7 +101,7 @@ module.exports = function () {
             title: "Rolling Hills (3D Music Visualizer)",
             images: [
               {
-                src: 'tiny/rollinghills.jpg',
+                src: 'rollinghills.jpg',
                 height: '140px'
               }
             ],
@@ -119,7 +119,7 @@ module.exports = function () {
             title: "The Correlation Corroborator",
             images: [
               {
-                src: 'tiny/oldCC.png',
+                src: 'oldCC.png',
                 height: '248px'
               }
             ],

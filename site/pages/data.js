@@ -41,11 +41,11 @@ module.exports = function () {
             title: "Jugnoo Visualizer",
             images: [
               {
-                src: 'visualizer_a-tiny.png',
+                src: 'tiny/visualizer_a.png',
                 height: '132px'
               }, 
               {
-                src: 'visualizer_b-tiny.png',
+                src: 'tiny/visualizer_b.png',
                 height: '132px'
               }
             ],
@@ -59,7 +59,7 @@ module.exports = function () {
             title: "JPost (Messaging)",
             images: [
               {
-                src: 'jpost-tiny.png',
+                src: 'tiny/jpost.png',
                 height: '153px'
               }
             ],
@@ -72,7 +72,7 @@ module.exports = function () {
             title: "Social Dashboard",
             images: [
               {
-                src: 'dashboard-tiny.png',
+                src: 'tiny/dashboard.png',
                 height: '172px'
               }
             ],
@@ -91,7 +91,7 @@ module.exports = function () {
             title: "Rolling Hills (3D Music Visualizer)",
             images: [
               {
-                src: 'rollinghills-tiny.jpg',
+                src: 'tiny/rollinghills.jpg',
                 height: '140px'
               }
             ],
@@ -109,7 +109,7 @@ module.exports = function () {
             title: "The Correlation Corroborator",
             images: [
               {
-                src: 'oldCC-tiny.png',
+                src: 'tiny/oldCC.png',
                 height: '248px'
               }
             ],

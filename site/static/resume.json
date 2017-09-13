@@ -55,9 +55,8 @@
                     "end": "Oct 2015"
                 },
                 "responsibilities": [
-                    "Lead front-end developer on Eyereturn's Campaign Analytics product",
-                    "Lead front-end developer on Eyereturn's Accounts product, which is used to manage accounts among Eyereturn applications",
-                    "Creator, lead developer of a general-purpose UI/UX and Javascript library to help standardize the look and feel of new applications company-wide",
+                    "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and Accounts project (account management). ",
+                    "Creator, lead developer of a general-purpose UI/UX and Javascript library to help standardize the look and feel of all new applications company-wide",
                     "Advised on the technologies used by other teams, for both client-facing products and internal projects",
                     "Contributed to various open source (mostly AngularJS-related) libraries including, but not limited to, DataTables, UI-Grid, Angular Grid, and Angular-VS-Repeat",
                     "Built front-end code to handle large, data-intensive API-responses fluidly; created and implemented several data visualizations in doing so",
@@ -65,8 +64,7 @@
                     "Implemented language internationalization (via i18n) on all applications that I lead, allowing use in different languages (e.g. English, French, Pirate, etc.)",
                     "Held developer meetings to teach how to use, and explain the benefits of various libraries, AngularJS, CSS preprocessors, and internationalization",
                     "Implemented White-labeling, branding of all applications that I lead (not just simple colouring, but full styling/theming, custom field formatting, and even further customization via theme-based Javascripts)",
-                    "Minor Hadoop (\"big data\") processing with Apache Pig",
-                    "Minor design work, UI / UX, animations"
+                    "Minor Hadoop (\"big data\") processing with Apache Pig"
                 ]
             },
             {

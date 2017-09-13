@@ -8,22 +8,29 @@
         {{#each elements}}
           <section>
             <header class="position">
-              <span class="title">
-                <h3 class="item-header">
-                  {{#if head.org}}
-                    <span>{{ head.org }}</span>
+              <div class="header-main">
+                <h3 class="item-title">
+                  {{#if head.title}}
+                    <span>{{ head.title }}</span>
                   {{/if}}
-                  {{ head.location }}
                 </h3>
                 {{#if head.role}}
                   <h3 class="role">{{ head.role }}</h3>
                 {{/if}}
-              </span>
-              {{#if time}}
-                <span class="position-duration">
-                  {{time.start}} - {{time.end}}
-                </span>
-              {{/if}}
+              </div>
+
+              <div class="header-meta">
+                {{#if time}}
+                  <div class="position-duration">
+                    {{time.start}} - {{time.end}}
+                  </div>
+                {{/if}}
+                {{#if head.location}}
+                  <div class="position-location">
+                    {{head.location}}
+                  </div>
+                {{/if}}
+              </div>
             </header>
 
             <ul class="details">

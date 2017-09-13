@@ -17,7 +17,7 @@
     table{
       table-layout: fixed;
       float: right;
-      margin-top: 0.5rem;
+      margin-top: 0.33rem;
       font-size: 0.95rem;
 
       td {
@@ -44,13 +44,22 @@
     width: 100%;
   }
 
+  .resume-body article:after { // Beacuse the category floats...
+    content: "";
+    display: block;
+    float: none;
+    clear: both;
+  }
+
   .resume-body article > header.category {
     float: left;
     width: 10rem;
-    font-weight: 900;
     margin: 0;
     margin-right: 2rem;
+    line-height: 1.4;
+    font-weight: 900;
   }
+
   .resume-body .article-body {
     overflow: hidden;
     margin-bottom: 0.25rem;
@@ -60,30 +69,46 @@
   }
 
   .resume-body header.position {
-    position: relative;
     width: 100%;
+    line-height: 1.4;
+    margin-bottom: 0.33rem;
+
+    .header-main {
+      float: left;
+    }
+
+    &:after { // Beacuse the meta floats...
+      content: "";
+      display: block;
+      float: none;
+      clear: both;
+    }
   }
+
   .resume-body header.position h3, .resume-body header.position span {
     font-weight: bold;
     padding: 0; margin: 0;
+    line-height: 1.4;
   }
   .resume-body header.position .item-header span, .resume-body header.position .role{
-    font-style:italic;
-    margin-top: 0.15rem;
+    font-style: italic;
   }
 
-  .resume-body .position-duration {
-    position: absolute;
-    right: 0;
+  .resume-body .header-meta {
+    float: right;
     max-width: 15rem;
-    top: 0;
+    margin-left: 1rem;
+
+    .position-location {
+      font-style: italic;
+    }
   }
 
   .resume-body section .details {
     // text-indent: 0.666rem;
     padding: 0 1.5rem 0 2.3rem;
     margin-top: 0.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
   }
   .resume-body section .details li {
       margin: 0.65rem 0 1rem -1rem;

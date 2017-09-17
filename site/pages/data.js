@@ -4,6 +4,99 @@ module.exports = function () {
     path: '/',
     projectsGroups: [
       {
+        location: "Hazel",
+        projects: [
+          {
+            title: "Growth Plans (Learning)",
+            images: [
+              {
+                src: 'hazel-gp-module-list.png',
+                height: '199px'
+              },
+              {
+                src: 'hazel-gp-module.png',
+                height: '233px'
+              }
+            ],
+            role: "Lead Front-End Developer",
+            description: "Manager-training courses spanning many topics important to being an effective leader. \
+                          <br/><br/>\
+                          Each course is broken into modules; each module is based on one overarching lesson, and may also include articles, videos, and assignments to complete. \
+                          A number of modules are assigned to each week of the course. A manager's progress is based on the number of modules and activities the manager has completed. \
+                          <br/><br/>\
+                          Each Growth Plan has an introduction syllabus outlining what the user can expect to learn, what type of activities they'll find, and how much time they're expected to commit. \
+                          <br/><br/>\
+                          All aspects of Growth Plans are mobile-friendly, and tested on various iOS and Android devices - as is the case with the rest of the core Hazel product."
+          },
+          {
+            title: "Analyze, Respond, Review",
+            images: [
+              {
+                src: 'hazel-review-mfr.png',
+                height: '235px'
+              },
+              {
+                src: 'hazel-wci-analyze.png',
+                height: '210px'
+              },
+            ],
+            role: "Lead Front-End Developer",
+            description: "Along with Growth Plans, the Hazel product allows several methods for gathering feedback from employees (either about their manager, or about their own feelings). \
+                          This feedback is then available, often anonymized, for review by their manager and admins. \
+                          <br/><br/>\
+                          The web-interface for gathering feedback (which lives alongside a Slack interface) is fully responsive to allow employees to quickly answer from their phone. \
+                          <br/><br/>\
+                          Questions asked are crafted to potentially relate to different skills; after its gathered and analyzed, managers are recommended Growth Plans related to the skills that they may wish to improve. \
+                          Dashboards are available for managers to track their own growth, and HR-admins to track trends and statistics."
+          }
+        ]
+      },
+      {
+        location: "Rise (Previously Paysavvy)",
+        projects: [
+          {
+            title: "Time Off",
+            images: [
+              {
+                src: 'rise-time-off-policies.png',
+                height: '171px'
+              },
+              {
+                src: 'rise-time-off-request.png',
+                height: '186px'
+              }
+            ],
+            role: "Lead Front-End Developer",
+            description: "A time off management tool. Allows admins to create fine-grained time off policies (e.g. for vacation, sick days, bereavement, or anything else they may wish to track), which employees would be enrolled in, and would issue requests against. \
+                          <br/><br/>\
+                          Includes a \"request calendar\" on which employees could create requests, and a \"review calendar\" that managers, team leads, departmental leads, and/or admins would approve or deny the requests.   \
+                          <br/><br/>\
+                          Various dashboards and reports are also available to different user types to analyze past time taken."
+          },
+          {
+            title: "Hub",
+            images: [
+              {
+                src: 'rise-employee-profile.png',
+                height: '274px'
+              },
+              {
+                src: 'rise-journey.png',
+                height: '213px'
+              },
+            ],
+            role: "Lead Front-End Developer",
+            description: "An HRIS and more; integrated with several other applications both internal (such as Time Off, below) and external. \
+                          <br/><br/>\
+                          Includes many tools for managing each employees properties and associations. \
+                          On each employee's profile, their \"Journey\" (progress, and general changes in their attributes & associations over time) \
+                          can be viewed by fellow employees (different employees can see different things based on their relationship).\
+                          <br/><br/>\
+                          Other features included an organization profile, core values, document upload (per organization, and per employee), and reporting."
+          }
+        ]
+      },
+      {
         location: "Eyereturn Marketing",
         projects: [
           {
@@ -12,11 +105,11 @@ module.exports = function () {
               {
                 src: 'er_dashboard.jpg',
                 height: '139px'
-              }, 
+              },
               {
                 src: 'er_dashboard_dark.jpg',
                 height: '149px'
-              }, 
+              },
               {
                 src: 'er_performance.jpg',
                 height: '172px'
@@ -53,7 +146,7 @@ module.exports = function () {
               {
                 src: 'visualizer_a.png',
                 height: '132px'
-              }, 
+              },
               {
                 src: 'visualizer_b.png',
                 height: '132px'
@@ -134,7 +227,7 @@ module.exports = function () {
 
         ]
       }
-      
+
     ]
   }
 }

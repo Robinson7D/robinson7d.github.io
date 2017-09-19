@@ -57,13 +57,13 @@
                 "responsibilities": [
                     "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and Accounts project (account management). ",
                     "Creator, lead developer of a general-purpose UI/UX and Javascript library to help standardize the look and feel of all new applications company-wide",
-                    "Advised on the technologies used by other teams, for both client-facing products and internal projects",
+                    "Advised on the technologies used by all other teams",
                     "Contributed to various open source (mostly AngularJS-related) libraries including, but not limited to, DataTables, UI-Grid, Angular Grid, and Angular-VS-Repeat",
                     "Built front-end code to handle large, data-intensive API-responses fluidly; created and implemented several data visualizations in doing so",
 
                     "Implemented language internationalization (via i18n) on all applications that I lead, allowing use in different languages (e.g. English, French, Pirate, etc.)",
                     "Held developer meetings to teach how to use, and explain the benefits of various libraries, AngularJS, CSS preprocessors, and internationalization",
-                    "Implemented White-labeling, branding of all applications that I lead (not just simple colouring, but full styling/theming, custom field formatting, and even further customization via theme-based Javascripts)",
+                    "Implemented White-labeling, branding of all applications that I lead (allowing full styling, report-field formatting, and theme-based Javascripts)",
                     "Minor Hadoop (\"big data\") processing with Apache Pig"
                 ]
             },
@@ -79,10 +79,10 @@
                 },
                 "responsibilities": [
                     "Built and open-sourced a generic framework for managing scene-based visualizations and data, the JVisualizer",
-                    "Optimized end-points and queries responsible for quickly analyzing various metrics of millions of arbitrarily-filtered/searched social posts",
-                    "Open source work on Sidekiq-Status (a support library for the popular, open-source background processing-and-scheduling library, Sidekiq)",
-                    "Worked on all levels (architecture, data-modelling, back-end, front-end, integration, and styling) of implementing an engine for scheduling and managing messages to be posted from users' social media accounts",
-                    "Helped build and maintain several Ember.JS projects, including automated testing (RSpec and QUnit)",
+                    "Optimized end-points and queries responsible for quickly analyzing millions of arbitrarily-filtered/searched social posts",
+                    "Open source work on Sidekiq-Status (a support library for Sidekiq)",
+                    "Worked on all levels (from architecture to full-stack development) implementing a tool for scheduling social media posts",
+                    "Helped build and maintain several EmberJS projects, tested with RSpec and QUnit",
                     "Continued on previous roles (see below, under Junior Web Developer):"
                 ]
             },
@@ -97,34 +97,16 @@
                     "end": "May 2013"
                 },
                 "responsibilities": [
-                    "Wrote Jugnoo's Social Media \"Visualizer\" - an interactive app which displays, and allows interaction upon, collections of social media posts in various graphical representations (such as Tag Clouds, Charts, Timelines, etc) - from scratch using a mixture of Javascript, D3JS, and Ruby on Rails",
+                    "Wrote Jugnoo's Social Media \"Visualizer\" - an app that provided interactive visualizations (e.g. Tag Clouds, Charts, Timelines, Clusters) on collections of social media posts. Built with Javascript, D3, and Ruby on Rails",
                     "Managed an intern while handling separate projects/components of my own",
-                    "Performed full-stack work, including optimized database schemas and queries as well as building various social media related products.",
-                    "Developed a library for accessing and parsing arbitrary web pages to generate a page-preview, consisting of a title, image, and paragraph relevant to the page"
+                    "Developed a library that generates page-previews of arbitrary web pages, providing of a title, image, and paragraph relevant to each link in a feed",
+                    "Full-stack development of several projects, including database optimizations"
                 ]
             }]
         }, {
             "id": "personal",
             "title": "Personal Programming / Side Projects",
             "elements": [{
-                "head": {
-                    "title": "JVis Audio"
-                },
-                "time": {
-                    "start": "May 2014",
-                    "end": "July 2014"
-                },
-                "responsibilities": ["Created a Web Audio API module with sample views for the JVisualizer framework", "Experimentations on audio-analysis portions of the Web Audio API, including extracting and comparing musical notes"]
-            }, {
-                "head": {
-                    "title": "The Correlation Corroborator"
-                },
-                "time": {
-                    "start": "Jan 2012",
-                    "end": "Dec 2012"
-                },
-                "responsibilities": ["Created a Rails-based web application that allows the user very limited information-extraction capabilities, and visualizes the results for the public"]
-            }, {
                 "head": {
                     "title": "Rolling Hills: a 3D Music Visualizer"
                 },
@@ -172,22 +154,6 @@
                 "responsibilities": [
                     "Managed three software developers at Rise, and one at Hazel"
                 ]
-            }]
-        },
-        {
-            "id": "nontech_experience",
-            "title": "Non-technical Work Experience",
-            "elements": [{
-                "head": {
-                    "title": "Royal Bank of Canada",
-                    "location": "Toronto, Ontario",
-                    "role": "Account Services Agent, Indirect Lending"
-                },
-                "time": {
-                    "start": "April 2010",
-                    "end": "Dec 2011"
-                },
-                "responsibilities": ["Performed Anti-Money Laundering procedures and course work", "Modified, entered, and verified sensitive information", "Processed car loans, assessing completion of client information and dealership paperwork"]
             }]
         }
     ]

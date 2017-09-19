@@ -1,19 +1,30 @@
 @import "../resume.scss";
 body {
   padding: 2rem;
+  padding-top: 0.5rem;
   font-size: 1rem;
 }
 
-@media print {
   .resume {
     h1.name {
-      font-size: 2.3rem;
+      font-size: 2rem;
     }
 
     .resume-header table {
-      margin-top: 0.15rem;
-      font-size: 0.80rem;
-      min-width: 25rem;
+      margin-top: 0.14rem;
+      font-size: 0.7rem;
+      min-width: auto;
     }
+  }
+
+@media print {
+  html {
+    font-size: 85%;
+  }
+
+  body {
+    // Let the print-added margins handle extra space around the document...
+    padding: 0;
+    margin: 0;
   }
 }

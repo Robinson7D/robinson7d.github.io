@@ -19,14 +19,12 @@ module.exports = function () {
               }
             ],
             role: "Lead Front-End Developer",
-            description: "Manager-training courses spanning many topics important to being an effective leader. \
+            description: "A learning platform that contains manager-training courses, spanning many topics important to being an effective leader. \
                           <br/><br/>\
                           Each course is broken into modules; each module is based on one overarching lesson, and may also include articles, videos, and assignments to complete. \
-                          A number of modules are assigned to each week of the course. A manager's progress is based on the number of modules and activities the manager has completed. \
+                          A manager's progress is based on the number of modules and activities the manager has completed. \
                           <br/><br/>\
-                          Each Growth Plan has an introduction syllabus outlining what the user can expect to learn, what type of activities they'll find, and how much time they're expected to commit. \
-                          <br/><br/>\
-                          All aspects of Growth Plans are mobile-friendly, and tested on various iOS and Android devices - as is the case with the rest of the core Hazel product."
+                          (Unlike my personal website) all aspects of Growth Plans are mobile-friendly, and tested on various iOS and Android devices - as is the case with the rest of the core Hazel product."
           },
           {
             title: "Analyze, Respond, Review",
@@ -41,13 +39,13 @@ module.exports = function () {
               },
             ],
             role: "Lead Front-End Developer",
-            description: "Along with Growth Plans, the Hazel product allows several methods for gathering feedback from employees (either about their manager, or about their own feelings). \
+            description: "Along with Growth Plans, the Hazel product includes surveys for gathering feedback from employees (one about their manager, and another about their own feelings). \
                           This feedback is then available, often anonymized, for review by their manager and admins. \
                           <br/><br/>\
                           The web-interface for gathering feedback (which lives alongside a Slack interface) is fully responsive to allow employees to quickly answer from their phone. \
                           <br/><br/>\
                           Questions asked are crafted to potentially relate to different skills; after its gathered and analyzed, managers are recommended Growth Plans related to the skills that they may wish to improve. \
-                          Dashboards are available for managers to track their own growth, and HR-admins to track trends and statistics."
+                          Dashboards are also available for managers to track their own growth, and HR-admins to track trends and statistics."
           }
         ]
       },
@@ -59,40 +57,40 @@ module.exports = function () {
             images: [
               {
                 src: 'rise-time-off-policies.png',
-                height: '171px'
+                height: '153px'
               },
               {
                 src: 'rise-time-off-request.png',
-                height: '186px'
+                height: '167px'
               }
             ],
             role: "Lead Front-End Developer",
-            description: "A time off management tool. Allows admins to create fine-grained time off policies (e.g. for vacation, sick days, bereavement, or anything else they may wish to track), which employees would be enrolled in, and would issue requests against. \
+            description: "A time off management tool. Allows admins to create fine-grained time off policies (e.g. for vacation, sick days, bereavement, or anything else they may wish to track), which employees are enrolled into, and issue requests against. \
                           <br/><br/>\
-                          Includes a \"request calendar\" on which employees could create requests, and a \"review calendar\" that managers, team leads, departmental leads, and/or admins would approve or deny the requests.   \
+                          Includes a \"request calendar\" where employees go to request time (days, hours, or fractions thereof), and a \"review calendar\" where the employee's reviewers for the policy may approve or deny the requests.   \
                           <br/><br/>\
-                          Various dashboards and reports are also available to different user types to analyze past time taken."
+                          Various dashboards and reports are also available to analyze past time taken."
           },
           {
             title: "Hub",
             images: [
               {
                 src: 'rise-employee-profile.png',
-                height: '274px'
+                height: '258px'
               },
               {
                 src: 'rise-journey.png',
-                height: '213px'
+                height: '191px'
               },
             ],
             role: "Lead Front-End Developer",
-            description: "An HRIS and more; integrated with several other applications both internal (such as Time Off, below) and external. \
+            description: "An HRIS and more; integrated with several other applications both internal (such as Time Off, above) and external. \
                           <br/><br/>\
                           Includes many tools for managing each employees properties and associations. \
                           On each employee's profile, their \"Journey\" (progress, and general changes in their attributes & associations over time) \
                           can be viewed by fellow employees (different employees can see different things based on their relationship).\
                           <br/><br/>\
-                          Other features included an organization profile, core values, document upload (per organization, and per employee), and reporting."
+                          Other features included an organization profile, core values, document upload (per organization, and per employee), note-taking, onboarding templates, and reports based on the HRIS data."
           }
         ]
       },

@@ -1,32 +1,36 @@
 {{#layout}}
   <header class="page-header">
     <h2 class="title"> Work & Projects </h2>
-    <h5 class="description"><i>A small gallery of some of the things I've built. Click images to expand.</i></h5>
+    <h5 class="description"><i>
+      A small gallery of some of the things I've built. <br/>
+      Images are small (blurry) to preserve bandwidth; click to view a higher resolution copy.
+    </i></h5>
   </header>
 
   <section class="projects">
     {{#each page.projectsGroups}}
-      <h3 class="location"> @<i>{{location}}</i> </h3>
-      {{#each projects}}
-        <article class="project">
-          <div class="images">
-            {{#each images}}
+      <div class="project-group">
+        <h3 class="location"> <i>{{location}}</i> </h3>
+        {{#each projects}}
+          <article class="project">
+            <div class="images">
+              {{#each images}}
 
-              <a class="image"
-                 href="/static/images/projects/{{this.src}}"
-                 target="_blank"
-                 style="height: {{this.height}};
-                        background-image: url('/static/images/projects/tiny/{{this.src}}')">
-              </a>
+                <a class="image"
+                   href="/static/images/projects/{{this.src}}"
+                   style="height: {{this.height}};
+                          background-image: url('/static/images/projects/tiny/{{this.src}}')">
+                </a>
 
-            {{/each}}
-          </div>
+              {{/each}}
+            </div>
 
-          <h4 class="title">{{title}}</h4>
-          <h5 class="role">{{role}}</h5>
-          <p class="description">{{{description}}}</p>
-        </article>
-      {{/each}}
+            <h4 class="title">{{title}}</h4>
+            <h5 class="role">{{role}}</h5>
+            <p class="description">{{{description}}}</p>
+          </article>
+        {{/each}}
+      </div>
     {{/each}}
   </section>
 {{/layout}}

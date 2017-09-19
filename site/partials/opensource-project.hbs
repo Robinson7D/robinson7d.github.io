@@ -1,18 +1,18 @@
 <div class="project">
-  <h4 class="name"> 
-    <a href="{{link}}" target="_blank"> {{name}} </a> 
+  <h4 class="name">
+    <a href="{{link}}" target="_blank"> {{name}} </a>
   </h4>
 
   <div class="commits">
     {{#each commits}}
       <div class="commit">
-        <div class="title"> 
-          <a href="{{link}}" target="_blank" > 
+        <div class="title">
+          <a href="{{link}}" target="_blank" >
             {{title}}
-          </a> 
+          </a>
         </div>
         {{#if additional}}
-          <div class="additional"> {{additional}} </div>
+          <div class="additional"> {{{additional}}} </div>
         {{/if}}
       </div>
     {{/each}}

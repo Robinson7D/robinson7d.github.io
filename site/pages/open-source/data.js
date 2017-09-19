@@ -6,6 +6,21 @@ module.exports = function () {
 
     projects: [
       {
+        name: "Structured-JS (Personal)",
+        link: "https://github.com/Robinson7D/structured-js",
+        commits: [
+          {
+            link: "https://github.com/Robinson7D/structured-js/commit/d3d30ed536b74cdbc5f1f0a8f1201196c024d3ff",
+            title: "All 28 commits are my own, so just view the repo",
+            additional: "All commits are my own, so just view the repo. <br/> \
+                        This is a repo for my personal implementations of data structures in JS. \
+                        Mostly used for learning, so I tried to (generally) err on the side of \
+                        clean code instead of small optimizations. Though some structures may contain an slightly \
+                        optimized variant."
+          },
+        ]
+      },
+      {
         name: "UI Grid (Angular-UI)",
         link: "https://github.com/angular-ui/ng-grid/commits/master?author=robinson7d",
         commits: [
@@ -20,7 +35,6 @@ module.exports = function () {
         ]
       },
 
-      
       {
         name: "NVD3",
         link: "https://github.com/novus/nvd3/commits/master?author=robinson7d",
@@ -31,7 +45,7 @@ module.exports = function () {
           }
         ]
       },
-      
+
       {
         name: "Sidekiq-Status",
         link: "https://github.com/utgarda/sidekiq-status/commits/master?author=robinson7d",
@@ -48,7 +62,6 @@ module.exports = function () {
         ]
       },
 
-      
       {
         name: "Angular-Grid",
         link: "https://github.com/ceolter/angular-grid/commits/master?author=robinson7d",
@@ -60,7 +73,6 @@ module.exports = function () {
         ]
       },
 
-
       {
         name: "Angular-Datatables",
         link: "https://github.com/l-lin/angular-datatables/commits?author=Robinson7D",
@@ -71,31 +83,39 @@ module.exports = function () {
           }
         ]
       },
-
-
-
+      {
+        name: "Refry-JS",
+        link: "https://github.com/Robinson7D/refry-js",
+        commits: [
+          {
+            link: "https://github.com/Robinson7D/refry-js/commit/9594e1b9ea27715acc7b450c341b1e3e369bec65",
+            title: "Initial commit",
+            additional: "All commits are my own, so just view the repo. <br/>" +
+                        "This is a repo for my personal (re-)implementations of hashing functions in JS. \
+                        It is basically just for my own amusement and learning purposes."
+          },
+        ]
+      },
       {
         name: "Jugnoo Visualizer",
         link: "https://github.com/jugnoo/j-visualizer/commits/master?author=robinson7d",
         commits: [
           {
-            link: "https://github.com/jugnoo/j-visualizer/commit/7075edf088739e8974a2ca10947e1745e2a4de6f",
+            link: "https://github.com/Robinson7D/j-visualizer/commit/7075edf088739e8974a2ca10947e1745e2a4de6f",
             title: "Initial Commit",
             additional: "Wrote a scene-based visualization framework using Ember-Metal." +
                         " Simplifies reusing visual elements between tabs/scenes/views, while animating in, out, and between."
           },
           {
-            link: "https://github.com/jugnoo/j-visualizer/commit/a298fadbeebbb8977d826aefac7e8ae485a87509",
+            link: "https://github.com/Robinson7D/j-visualizer/commit/a298fadbeebbb8977d826aefac7e8ae485a87509",
             title: "Merge develop, Version 1.1"
           },
           {
-            link: "https://github.com/jugnoo/j-visualizer/commit/3ca4e66a33032a4ecd8a8e92af27fc2fa5e87eb8",
+            link: "https://github.com/Robinson7D/j-visualizer/commit/3ca4e66a33032a4ecd8a8e92af27fc2fa5e87eb8",
             title: "Release 1.2"
           },
         ]
       },
-
-
     ]
   }
 }

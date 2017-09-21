@@ -1,6 +1,33 @@
 {
     "sections": [
         {
+            "id": "skills",
+            "title": "Technical Skills",
+            "elements": [{
+                "head": {
+                    "title": "Client-side Web Development"
+                },
+                "responsibilities": [
+                    "Languages: Javascript (ES5, ES6, ES2017), Coffeescript, Typescript, ProcessingJS",
+                    "Frontend frameworks: AngularJS, Ember, React",
+                    "Frontend technologies: D3, HTML5, CSS3, JQuery, Bootstrap, Lodash/Underscore",
+                    "Testing: Nightwatch, Protractor, PhantomJS, QUnit, Karma, Chai+Mocha, Istanbul (coverage)",
+                    "Ops, build: Grunt, Gulp, Babel, Browserify"
+                ]
+            },{
+                "head": {
+                    "title": "General Software Development"
+                },
+                "responsibilities": [
+                    "Languages: Ruby, Javascript; previously Java, C++, and Prolog",
+                    "Databases: SQL, PostgreSQL, REDIS; a bit of Hadoop/HDFS, MariaDB",
+                    "Backend web frameworks: Ruby on Rails, Phoenix",
+                    "Source control: GitHub, Gitlab, Mercurial",
+                    "Multithreading: BoostThreads (C++) with mutexes"
+                ]
+            }]
+        },
+        {
             "id": "experience",
             "title": "Work Experience",
             "elements": [{
@@ -14,14 +41,14 @@
                     "end": "Sept 2017"
                 },
                 "responsibilities": [
+                    "Key technologies used include ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
                     "Continued responsibilities from Rise (below) until our old software was sold",
                     "Implemented and maintained theming to support Rise and Hazel in concurrently (coloring, but also typography, sizing, icons)",
-                    "Handled the hand-off and training that came with selling our old software",
                     "Managed one developer",
 
-                    "Built out various projects as we pivoted, including surveys (respond & review), data analytics, and educational (i.e. course-work) software",
-                    "Built simple end-to-end testing for all projects",
-                    "Wrote responsive, mobile-friendly UI and UX"
+                    "Built out several responsive projects as we pivoted, including surveys (respond & review), data analytics, and educational (i.e. course-work) software",
+
+                    "Built simple end-to-end testing for all projects using NightwatchJS"
                 ]
             },
             {
@@ -35,13 +62,11 @@
                     "end": "June 2016"
                 },
                 "responsibilities": [
-                    "Lead the front-end side of development for all products, managing three developers",
-                    "Held regular one-on-ones with each team member, and learned as quickly as possible how to manage people",
-                    "Reviewed, or assisted in reviewing, most pull requests across our front-end repos",
+                    "Key technologies used include ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
+                    "Managed three front-end developers (ranging junior to senior)",
+                    "Reviewed most pull requests across our front-end repos",
                     "Converted business specs into broken down development specs for the team to work against",
-
-                    "Helped build several products, including a time-off management system and an HRIS, along with other HR-related software",
-                    "Rebranded application (Paysavvy -> Rise)"
+                    "Built out several products, including a time-off management system and an HRIS, along with other HR-related software"
                 ]
             },
             {
@@ -55,55 +80,39 @@
                     "end": "Oct 2015"
                 },
                 "responsibilities": [
-                    "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and Accounts project (account management). ",
-                    "Creator, lead developer of a general-purpose UI/UX and Javascript library to help standardize the look and feel of all new applications company-wide",
-                    "Advised on the technologies used by all other teams",
-                    "Contributed to various open source (mostly AngularJS-related) libraries including, but not limited to, DataTables, UI-Grid, Angular Grid, and Angular-VS-Repeat",
-                    "Built front-end code to handle large, data-intensive API-responses fluidly; created and implemented several data visualizations in doing so",
+                    "Key technologies used include ES6, AngularJS, D3, DataTables, Pig Scripts (for big data in Hadoop/HDFS), Java, SASS, HTML5, MariaDB",
+
+                    "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and their account management project.",
+                    "Creator, lead developer of a general-purpose UI/UX library to help standardize the look and feel of all new applications company-wide",
+                    "Contributed to five large open source (mostly AngularJS-related) projects on Github",
 
                     "Implemented language internationalization (via i18n) on all applications that I lead, allowing use in different languages (e.g. English, French, Pirate, etc.)",
-                    "Held developer meetings to teach how to use, and explain the benefits of various libraries, AngularJS, CSS preprocessors, and internationalization",
-                    "Implemented White-labeling, branding of all applications that I lead (allowing full styling, report-field formatting, and theme-based Javascripts)",
-                    "Minor Hadoop (\"big data\") processing with Apache Pig"
+                    "Held regular developer meetings to teach about and advise all other teams on front-end technologies and best-practices (e.g. internationalization)",
+                    "Implemented White-label branding for all applications that I lead (allowing full styling, report-field formatting, and theme-based Javascripts)"
                 ]
             },
             {
                 "head": {
                     "title": "Jugnoo Inc.",
                     "location": "Toronto, Ontario",
-                    "role": "Intermediate Web Developer, Jugnoo Labs"
-                },
-                "time": {
-                    "start": "May 2013",
-                    "end": "Aug 2014"
-                },
-                "responsibilities": [
-                    "Built and open-sourced a generic framework for managing scene-based visualizations and data, the JVisualizer",
-                    "Optimized end-points and queries responsible for quickly analyzing millions of arbitrarily-filtered/searched social posts",
-                    "Open source work on Sidekiq-Status (a support library for Sidekiq)",
-                    "Worked on all levels (from architecture to full-stack development) implementing a tool for scheduling social media posts",
-                    "Helped build and maintain several EmberJS projects, tested with RSpec and QUnit",
-                    "Continued on previous roles (see below, under Junior Web Developer):"
-                ]
-            },
-            {
-                "head": {
-                    "title": "Jugnoo Inc.",
-                    "location": "Toronto, Ontario",
-                    "role": "Junior Web Developer, Jugnoo Labs"
+                    "role": "Web Developer"
                 },
                 "time": {
                     "start": "May 2012",
-                    "end": "May 2013"
+                    "end": "Aug 2014"
                 },
                 "responsibilities": [
-                    "Wrote Jugnoo's Social Media \"Visualizer\" - an app that provided interactive visualizations (e.g. Tag Clouds, Charts, Timelines, Clusters) on collections of social media posts. Built with Javascript, D3, and Ruby on Rails",
-                    "Managed an intern while handling separate projects/components of my own",
+                    "Key technologies used include Ruby on Rails, Coffeescript, EmberJS + Ember Metal, D3, REDIS, Sidekiq, SASS, HTML5, PostgreSQL, OAuth, RSpec, and QUnit",
+                    "Built and open-sourced a visualization framework, the \"JVisualizer\". Also performed open-source work on Sidekiq-Status",
+                    "Worked on all levels (from architecture to full-stack development) implementing a tool for scheduling social media posts",
                     "Developed a library that generates page-previews of arbitrary web pages, providing of a title, image, and paragraph relevant to each link in a feed",
-                    "Full-stack development of several projects, including database optimizations"
+                    "Optimized end-points and queries responsible for quickly analyzing millions of arbitrarily-filtered/searched social posts",
+
+                    "Helped build and maintain several EmberJS and Ruby on Rails applications, including a social feeds manager (different accounts and services in one place), as well as a visualizer app"
                 ]
             }]
-        }, {
+        },
+        {
             "id": "personal",
             "title": "Personal Programming / Side Projects",
             "elements": [{
@@ -131,29 +140,6 @@
                     "end": "April 2012"
                 },
                 "responsibilities": ["Graduated with a cumulative GPA of 3.11"]
-            }]
-        },
-        {
-            "id": "skills",
-            "title": "Technical Skills",
-            "elements": [{
-                "head": {
-                    "title": "Software Development (Keywords Warning)"
-                },
-                "responsibilities": [
-                    "An understanding of multiple software development cycles",
-                    "Previously designed, built, and optimized multithreaded applications",
-                    "Experience with GitHub / Gitlab, and a general understanding of distributed revision control systems",
-                    "Proficient in Ruby, Javascript / Coffeescript, and previously in C++",
-                    "Experience with many programming languages, frameworks, protocols, and technologies, including, but not limited to, Ruby on Rails, AnglarJS, EmberJS, Elixir, Phoenix, C, VB, D3.JS, JQuery, Processing, Prolog, PHP, OAuth, HTML, CSS, SQL, REDIS, and OpenGL"
-                ]
-            }, {
-                "head": {
-                    "title": "Management"
-                },
-                "responsibilities": [
-                    "Managed three software developers at Rise, and one at Hazel"
-                ]
             }]
         }
     ]

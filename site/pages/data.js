@@ -215,12 +215,11 @@ module.exports = function () {
               }
             ],
             role: "Sole Developer",
-            description: "My first taste of Ruby on Rails. This implements a simple information extractor/crawler; \
+            description: "Personal Ruby on Rails project that implements a simple information extractor/crawler; \
                           given a wikipedia category and list of keywords, the app fetches the category's page from Wikipedia \
-                          collects the links associated with it (only the \"Pages in\" section, not unrelated pages), \
-                          and accesses as many as possible within a time limit, attempting to find what percentage of \
-                          the pages contain the keywords provided. Various constraints were included to prevent the app from \
-                          running too frequently, or accessing Wikipedia's servers too many times (to avoid wasting Wikipedia's resources)."
+                          collects the \"Pages in\" links associated with it, and visits as many as possible within a time limit,\
+                          finding what percentage of the pages contain the keywords.\
+                          Constraints were included to prevent the app from accessing Wikipedia's servers too often (to avoid wasting Wikipedia's resources)."
           }
 
         ]

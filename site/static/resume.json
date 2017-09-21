@@ -41,7 +41,7 @@
                     "end": "Sept 2017"
                 },
                 "responsibilities": [
-                    "Key technologies used include ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
+                    "Key technologies used: ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
                     "Continued responsibilities from Rise (below) until our old software was sold",
                     "Implemented and maintained theming to support Rise and Hazel in concurrently (coloring, but also typography, sizing, icons)",
                     "Managed one developer",
@@ -62,7 +62,7 @@
                     "end": "June 2016"
                 },
                 "responsibilities": [
-                    "Key technologies used include ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
+                    "Key technologies used: ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
                     "Managed three front-end developers (ranging junior to senior)",
                     "Reviewed most pull requests across our front-end repos",
                     "Converted business specs into broken down development specs for the team to work against",
@@ -80,7 +80,7 @@
                     "end": "Oct 2015"
                 },
                 "responsibilities": [
-                    "Key technologies used include ES6, AngularJS, D3, DataTables, Pig Scripts (for big data in Hadoop/HDFS), Java, SASS, HTML5, MariaDB",
+                    "Key technologies used: ES6, AngularJS, D3, DataTables, Pig Scripts (for big data in Hadoop/HDFS), Java, SASS, HTML5, MariaDB",
 
                     "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and their account management project.",
                     "Creator, lead developer of a general-purpose UI/UX library to help standardize the look and feel of all new applications company-wide",
@@ -102,8 +102,8 @@
                     "end": "Aug 2014"
                 },
                 "responsibilities": [
-                    "Key technologies used include Ruby on Rails, Coffeescript, EmberJS + Ember Metal, D3, REDIS, Sidekiq, SASS, HTML5, PostgreSQL, OAuth, RSpec, and QUnit",
-                    "Built and open-sourced a visualization framework, the \"JVisualizer\". Also performed open-source work on Sidekiq-Status",
+                    "Key technologies used: Ruby on Rails, Coffeescript, EmberJS + Ember Metal, D3, REDIS, Sidekiq, SASS, HTML5, PostgreSQL, OAuth, RSpec, and QUnit",
+                    "Open-sourced a visualization framework, the \"JVisualizer\"; also performed open-source work on Sidekiq-Status",
                     "Worked on all levels (from architecture to full-stack development) implementing a tool for scheduling social media posts",
                     "Developed a library that generates page-previews of arbitrary web pages, providing of a title, image, and paragraph relevant to each link in a feed",
                     "Optimized end-points and queries responsible for quickly analyzing millions of arbitrarily-filtered/searched social posts",

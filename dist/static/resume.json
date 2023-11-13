@@ -1,0 +1,146 @@
+{
+    "sections": [
+        {
+            "id": "skills",
+            "title": "Technical Skills",
+            "elements": [{
+                "head": {
+                    "title": "Client-side Web Development"
+                },
+                "responsibilities": [
+                    "Languages: Javascript (ES5, ES6, ES2017), Coffeescript, Typescript, ProcessingJS",
+                    "Frontend frameworks: AngularJS, Ember, React",
+                    "Frontend technologies: D3, HTML5, CSS3, JQuery, Bootstrap, Lodash/Underscore",
+                    "Testing: Nightwatch, Protractor, PhantomJS, QUnit, Karma, Chai+Mocha, Istanbul (coverage)",
+                    "Ops, build: Grunt, Gulp, Babel, Browserify"
+                ]
+            },{
+                "head": {
+                    "title": "General Software Development"
+                },
+                "responsibilities": [
+                    "Languages: Ruby, Javascript; previously Java, C++, and Prolog",
+                    "Databases: SQL, PostgreSQL, REDIS; a bit of Hadoop/HDFS, MariaDB",
+                    "Backend web frameworks: Ruby on Rails, Phoenix",
+                    "Source control: GitHub, Gitlab, Mercurial",
+                    "Multithreading: BoostThreads (C++) with mutexes"
+                ]
+            }]
+        },
+        {
+            "id": "experience",
+            "title": "Work Experience",
+            "elements": [{
+                "head": {
+                    "title": "Hazel (spin-off from Rise)",
+                    "location": "Vancouver, BC",
+                    "role": "Frontend Engineering Lead"
+                },
+                "time": {
+                    "start": "June 2016",
+                    "end": "Sept 2017"
+                },
+                "responsibilities": [
+                    "Key technologies used: ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
+                    "Continued responsibilities from Rise (below) until our old software was sold",
+                    "Implemented and maintained theming to support Rise and Hazel in concurrently (coloring, but also typography, sizing, icons)",
+                    "Managed one developer",
+
+                    "Built out several responsive projects as we pivoted, including surveys (respond & review), data analytics, and educational (i.e. course-work) software",
+
+                    "Built simple end-to-end testing for all projects using NightwatchJS"
+                ]
+            },
+            {
+                "head": {
+                    "title": "Rise (Previously, Paysavvy)",
+                    "location": "Vancouver, BC",
+                    "role": "Frontend Engineering Lead"
+                },
+                "time": {
+                    "start": "Oct 2015",
+                    "end": "June 2016"
+                },
+                "responsibilities": [
+                    "Key technologies used: ES6, Angular, Flux, JSONAPI, D3, SCSS, HTML5, PostgreSQL, and Ruby on Rails",
+                    "Managed three front-end developers (ranging junior to senior)",
+                    "Reviewed most pull requests across our front-end repos",
+                    "Converted business specs into broken down development specs for the team to work against",
+                    "Built out several products, including a time-off management system and an HRIS, along with other HR-related software"
+                ]
+            },
+            {
+                "head": {
+                    "title": "Eyereturn Marketing",
+                    "location": "Toronto, Ontario",
+                    "role": "Web Applications Developer"
+                },
+                "time": {
+                    "start": "Sept 2014",
+                    "end": "Oct 2015"
+                },
+                "responsibilities": [
+                    "Key technologies used: ES6, AngularJS, D3, DataTables, Pig Scripts (for big data in Hadoop/HDFS), Java, SASS, HTML5, MariaDB",
+
+                    "Lead front-end developer on Eyereturn's Campaign Analytics product (ad analytics), and their account management project.",
+                    "Creator, lead developer of a general-purpose UI/UX library to help standardize the look and feel of all new applications company-wide",
+                    "Contributed to five large open source (mostly AngularJS-related) projects on Github",
+
+                    "Implemented language internationalization (via i18n) on all applications that I lead, allowing use in different languages (e.g. English, French, Pirate, etc.)",
+                    "Held regular developer meetings to teach about and advise all other teams on front-end technologies and best-practices (e.g. internationalization)",
+                    "Implemented White-label branding for all applications that I lead (allowing full styling, report-field formatting, and theme-based Javascripts)"
+                ]
+            },
+            {
+                "head": {
+                    "title": "Jugnoo Inc.",
+                    "location": "Toronto, Ontario",
+                    "role": "Web Developer"
+                },
+                "time": {
+                    "start": "May 2012",
+                    "end": "Aug 2014"
+                },
+                "responsibilities": [
+                    "Key technologies used: Ruby on Rails, Coffeescript, EmberJS + Ember Metal, D3, REDIS, Sidekiq, SASS, HTML5, PostgreSQL, OAuth, RSpec, and QUnit",
+                    "Open-sourced a visualization framework, the \"JVisualizer\"; also performed open-source work on Sidekiq-Status",
+                    "Worked on all levels (from architecture to full-stack development) implementing a tool for scheduling social media posts",
+                    "Developed a library that generates page-previews of arbitrary web pages, providing of a title, image, and paragraph relevant to each link in a feed",
+                    "Optimized end-points and queries responsible for quickly analyzing millions of arbitrarily-filtered/searched social posts",
+
+                    "Helped build and maintain several EmberJS and Ruby on Rails applications, including a social feeds manager (different accounts and services in one place), as well as a visualizer app"
+                ]
+            }]
+        },
+        {
+            "id": "personal",
+            "title": "Personal Programming / Side Projects",
+            "elements": [{
+                "head": {
+                    "title": "Rolling Hills: a 3D Music Visualizer"
+                },
+                "time": {
+                    "start": "Jan 2012",
+                    "end": "April 2012"
+                },
+                "responsibilities": ["Created an interactive, 3D music visualize, written in C++ and OpenGL, utilizing Boost Threads, FMod (audio), and GLUT (GL toolkit); Rolling Hills renders landscapes in real-time based on input MP3 files", "Optimized and multithreaded for efficiently analyzing music and rendering", "Cross-platform: currently compiled and tested on Windows and Mac OSX"]
+            }]
+        },
+        {
+            "id": "education",
+            "title": "Education",
+            "elements": [{
+                "head": {
+                    "title": "Ryerson University",
+                    "role": "BSc. Computer Science",
+                    "location": "Toronto, Ontario"
+                },
+                "time": {
+                    "start": "Sept 2008",
+                    "end": "April 2012"
+                },
+                "responsibilities": ["Graduated with a cumulative GPA of 3.11"]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+.explanation, .stackoverflow {
+  margin-bottom: 20px; }
+
+.project {
+  position: relative;
+  margin-left: 30px;
+  padding-left: 40px;
+  border-left: 5px solid #ff494d; }
+  .project .name {
+    margin: 0 0 10px 0; }
+    .project .name > a {
+      text-decoration: none;
+      color: #444444;
+      font-style: italic; }
+  .project .commits {
+    padding-bottom: 10px; }
+  .project .commit {
+    margin-bottom: 10px;
+    position: relative; }
+    .project .commit:before, .project .commit:after {
+      content: "";
+      border-radius: 50%;
+      position: absolute; }
+    .project .commit:before {
+      background: #1fa3ff;
+      width: 15px;
+      height: 15px;
+      left: -50px;
+      top: 5px; }
+    .project .commit:after {
+      background: white;
+      width: 7px;
+      height: 7px;
+      left: -46px;
+      top: 9px; }

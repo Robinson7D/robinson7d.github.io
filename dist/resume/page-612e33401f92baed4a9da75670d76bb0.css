@@ -1,0 +1,88 @@
+.resume {
+  font-size: 80%;
+  font-family: Verdana, Geneva, sans-serif; }
+  .resume h2, .resume h3, .resume h4, .resume header {
+    font-size: 0.95rem; }
+  .resume .resume-header {
+    display: inline-block;
+    margin-bottom: 1.5rem; }
+    .resume .resume-header .contact-type {
+      font-weight: 500; }
+    .resume .resume-header table {
+      table-layout: fixed;
+      float: right;
+      margin-top: 0.5rem;
+      font-size: 0.95rem; }
+      .resume .resume-header table td {
+        text-align: left; }
+      .resume .resume-header table td.contact-type {
+        text-align: right;
+        padding-right: 10px; }
+  .resume h1.name {
+    float: left;
+    margin-right: 4.5rem;
+    margin-top: 0;
+    font-size: 3rem; }
+  .resume .resume-header, .resume .resume-body {
+    min-width: 50rem;
+    max-width: 70rem;
+    width: 100%; }
+  .resume .resume-body article > header.category {
+    float: left;
+    width: 10rem;
+    font-weight: 900;
+    margin: 0;
+    margin-right: 2rem; }
+  .resume .resume-body .article-body {
+    overflow: hidden;
+    margin-bottom: 0.25rem; }
+  .resume .resume-body .article-body section {
+    margin-bottom: 1rem; }
+  .resume .resume-body header.position {
+    position: relative;
+    width: 100%; }
+  .resume .resume-body header.position h3, .resume .resume-body header.position span {
+    font-weight: bold;
+    padding: 0;
+    margin: 0; }
+  .resume .resume-body header.position .item-header span, .resume .resume-body header.position .role {
+    font-style: italic;
+    margin-top: 0.15rem; }
+  .resume .resume-body .position-duration {
+    position: absolute;
+    right: 0;
+    max-width: 15rem;
+    top: 0; }
+  .resume .resume-body section .details {
+    padding: 0 1.5rem 0 2.3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem; }
+  .resume .resume-body section .details li {
+    margin: 0.65rem 0 1rem -1rem;
+    padding: 0;
+    list-style-position: inside; }
+
+.body-content-wrapper {
+  min-width: 880px; }
+
+.resume-copies {
+  margin-top: 10px; }
+
+.resume-divider {
+  margin: 30px 0;
+  opacity: 0.15; }
+
+.resume h1.name {
+  margin-right: 6rem;
+  margin-top: 0.25rem;
+  font-size: 1.25rem; }
+
+.resume .resume-header table {
+  margin-top: 0.25rem;
+  font-size: 0.90rem; }
+
+.resume .resume-header, .resume .resume-body {
+  max-width: inherit; }
+
+.resume .resume-body article > header.category {
+  line-height: 1.2em; }

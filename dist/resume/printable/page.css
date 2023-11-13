@@ -1,0 +1,99 @@
+.resume {
+  font-size: 80%;
+  font-family: Verdana, Geneva, sans-serif; }
+  .resume h2, .resume h3, .resume h4, .resume header {
+    font-size: 0.95rem; }
+  .resume .resume-header {
+    display: inline-block;
+    margin-bottom: 1.5rem; }
+    .resume .resume-header .contact-type {
+      font-weight: 500; }
+    .resume .resume-header table {
+      table-layout: fixed;
+      float: right;
+      margin-top: 0.33rem;
+      font-size: 0.95rem; }
+      .resume .resume-header table td {
+        text-align: left; }
+      .resume .resume-header table td.contact-type {
+        text-align: right;
+        padding-right: 10px; }
+  .resume h1.name {
+    float: left;
+    margin-right: 4.5rem;
+    margin-top: 0;
+    font-size: 3rem; }
+  .resume .resume-header, .resume .resume-body {
+    min-width: 50rem;
+    max-width: 70rem;
+    width: 100%; }
+  .resume .resume-body article:after {
+    content: "";
+    display: block;
+    float: none;
+    clear: both; }
+  .resume .resume-body article > header.category {
+    float: left;
+    width: 10rem;
+    margin: 0;
+    margin-right: 2rem;
+    line-height: 1.4;
+    font-weight: 900; }
+  .resume .resume-body .article-body {
+    overflow: hidden;
+    margin-bottom: 0.25rem; }
+  .resume .resume-body .article-body section {
+    margin-bottom: 1rem; }
+  .resume .resume-body header.position {
+    width: 100%;
+    line-height: 1.4;
+    margin-bottom: 0.33rem; }
+    .resume .resume-body header.position .header-main {
+      float: left; }
+    .resume .resume-body header.position:after {
+      content: "";
+      display: block;
+      float: none;
+      clear: both; }
+  .resume .resume-body header.position h3, .resume .resume-body header.position span {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4; }
+  .resume .resume-body header.position .item-header span, .resume .resume-body header.position .role {
+    font-style: italic; }
+  .resume .resume-body .header-meta {
+    float: right;
+    max-width: 15rem;
+    margin-left: 1rem; }
+    .resume .resume-body .header-meta .position-location {
+      font-style: italic; }
+  .resume .resume-body section .details {
+    padding: 0 1.5rem 0 2.3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem; }
+  .resume .resume-body section .details li {
+    margin: 0.65rem 0 0.60rem -1rem;
+    padding: 0;
+    line-height: 1.5;
+    list-style-position: inside; }
+
+body {
+  padding: 2rem;
+  padding-top: 0.5rem;
+  font-size: 1rem; }
+
+.resume h1.name {
+  font-size: 2rem; }
+
+.resume .resume-header table {
+  margin-top: 0.14rem;
+  font-size: 0.7rem;
+  min-width: auto; }
+
+@media print {
+  html {
+    font-size: 85%; }
+  body {
+    padding: 0;
+    margin: 0; } }

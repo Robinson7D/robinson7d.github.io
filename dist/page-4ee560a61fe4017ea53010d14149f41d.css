@@ -1,0 +1,45 @@
+.page-header {
+  margin-bottom: 30px; }
+  .page-header .title {
+    margin-top: -4px;
+    margin-bottom: 6px; }
+  .page-header .description {
+    margin-left: 30px;
+    margin-top: 10px; }
+
+.projects .project-group {
+  padding-bottom: 10px; }
+
+.projects .location {
+  text-align: center;
+  color: #4e564e;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-decoration: underline; }
+
+.projects .project {
+  margin-bottom: 40px; }
+  .projects .project .title {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .projects .project .role {
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .projects .project .description {
+    margin-top: 10px; }
+  .projects .project:after {
+    content: "";
+    display: block;
+    float: none;
+    clear: both; }
+
+.projects .images {
+  float: right; }
+  .projects .images .image {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 250px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat; }
